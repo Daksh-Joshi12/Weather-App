@@ -1,0 +1,200 @@
+     html, body {
+            height: 100%;
+        }
+
+        body {
+            background: #E8F5E9;
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-wrapper {
+            flex: 1;
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            color: #81C784 !important;
+        }
+
+        .nav-link {
+            color: #2E7D32 !important;
+        }
+
+        .nav-link:hover {
+            color: #81C784 !important;
+        }
+
+        .search-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-top: 30px;
+            border: 2px solid #E8F5E9;
+        }
+
+        .search-card h2 {
+            color: #2E7D32;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .search-card i {
+            color: #81C784;
+        }
+
+        .search-input {
+            border: 2px solid #E8F5E9;
+            border-radius: 12px;
+            padding: 15px 20px;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: #81C784;
+            box-shadow: 0 0 0 0.2rem rgba(129, 199, 132, 0.25);
+        }
+
+        .search-btn {
+            background: #81C784;
+            border: none;
+            border-radius: 12px;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s;
+            color: white;
+        }
+
+        .search-btn:hover {
+            background: #66BB6A;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(129, 199, 132, 0.4);
+        }
+
+        .weather-main-card {
+            background: #4FC3F7;
+            border-radius: 25px;    
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+            padding: 50px;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .city-name {
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #2E7D32;
+        }
+
+        .weather-icon {
+            font-size: 120px;
+            margin: 20px 0;
+        }
+
+        .temperature {
+            font-size: 80px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #2E7D32;
+        }
+
+        .description {
+            font-size: 28px;
+            text-transform: capitalize;
+            color: #2E7D32;
+            opacity: 0.9;
+        }
+
+        .detail-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+            transition: all 0.3s;
+            border: 2px solid #E8F5E9;
+        }
+
+        .detail-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(129, 199, 132, 0.3);
+            border-color: #81C784;
+        }
+
+        .detail-icon {
+            font-size: 40px;
+            color: #81C784;
+            margin-bottom: 15px;
+        }
+
+        .detail-label {
+            font-size: 16px;
+            color: #A5D6A7;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .detail-value {
+            font-size: 32px;
+            color: #2E7D32;
+            font-weight: bold;
+        }
+
+        .error-alert {
+            border-radius: 15px;
+            margin-top: 20px;
+            background-color: #FFEBEE;
+            border-color: #EF5350;
+            color: #C62828;
+        }
+
+        .loading-spinner {
+            margin-top: 30px;
+        }
+
+        .spinner-border {
+            color: #81C784 !important;
+        }
+
+        .loading-text {
+            color: #2E7D32;
+        }
+
+        footer {
+            background: #2E7D32 !important;
+        }
+
+        footer h5 {
+            color: #E8F5E9;
+        }
+
+        footer .text-white-50 {
+            color: #A5D6A7 !important;
+        }
+
+        footer a:hover {
+            color: #81C784 !important;
+        }
+
+        footer .text-white {
+            color: #E8F5E9 !important;
+        }
+
+        footer hr {
+            border-color: #A5D6A7 !important;
+        }
+
+        .bi-cloud-sun-fill {
+            color: #81C784 !important;
+        }
